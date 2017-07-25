@@ -1,0 +1,7 @@
+TargetRoute1:
+    path:     /target/foo
+    defaults: { _controller: Service\Target\Controller\MyController::foo }
+
+TargetRoute2:
+    path:     /target/foo/bar
+    defaults: { _controller: Service\Target\Controller\MyController::foobar }

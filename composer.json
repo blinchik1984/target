@@ -1,0 +1,22 @@
+{
+  "require": {
+    "symfony/yaml": "~3.0",
+    "symfony/dependency-injection": "~3.3",
+    "dunaev/adserver-engine": "dev-master",
+    "dunaev/adserver-client": "dev-master",
+    "dunaev/adserver-clientlocal": "dev-master"
+  },
+  "autoload": {
+    "psr-4": {
+      "Services\\Target\\Components\\": "components",
+      "Services\\Target\\Controller\\": "controller"
+    }
+  },
+  "config": {
+    "vendor-dir": "../../vendor"
+  },
+  "classmap": [
+    "components",
+    "controller"
+  ]
+}

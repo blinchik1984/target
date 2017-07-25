@@ -1,0 +1,7 @@
+services:
+  contentClientApi:
+    class: AdServer\ClientLocal\Client
+  TargetService:
+    class: Services\Target\Components\Service
+    arguments:
+      - "@contentClientApi"
